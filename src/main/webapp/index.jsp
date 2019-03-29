@@ -45,7 +45,7 @@
   <button type="submit" class="btn btn-default" ng-click="vm.submit(vm.user)">Submit</button>
 </form></center>
 <footer  ><h2><font style=color:red>Thank You</font> Please Visit Again ....</h2></footer>
-<h1 ><marquee><font style=color:red>{Mujammil-Kohli}</font></marquee></h1>
+<h1 ><marquee><font style=color:red>{Virat-Kohli}</font></marquee></h1>
 
  </body>
 </html>
