@@ -1,12 +1,13 @@
 pipeline{
-	agent {label 'slave1'}
+	agent any
 		stages {
 			stage('Preperation'){
-				steps{ echo 'this is preperation stage'
+				steps{ sh 'docker pull ubuntu'
+				       sh 'docker pull nginx'
 					}
 				}
 			stage('build'){
-				steps{ echo 'this is build stage'
+				steps{ sh 'docker run -itd ubuntu'
 					}
 				}
 			stage('test'){
