@@ -4,10 +4,11 @@ pipeline{
 			stage('Preperation'){
 				steps{ sh 'docker pull ubuntu'
 				       sh 'docker pull nginx'
+				       sh 'docker pull tutum/hello-world'
 					}
 				}
 			stage('build'){
-				steps{ sh 'docker run -itd --name mujju ubuntu'
+				steps{ sh 'docker run -itd -p 82:80 --name kohli tutum/hello-world'
 					}
 				}
 			stage('test'){
