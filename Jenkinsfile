@@ -7,7 +7,7 @@ pipeline{
 					}
 				}
 			stage('build'){
-				steps{ sh 'docker run -itd ubuntu'
+				steps{ sh 'docker run -itd --name mujju ubuntu'
 					}
 				}
 			stage('test'){
