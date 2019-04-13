@@ -6,16 +6,15 @@
   <title>Login Page</title>
  </head>
  <style>
- header,footer{ padding:1px;
- 				text-align:center;
-				background-color:aqua;
-
-				clear:left;}
-
- </style>
+ 		header,footer{ padding:1px;
+ 		text-align:center;
+		background-color:aqua;
+	 	clear:left;}
+</style>
 
  <body bgcolor="lightblue", align="center">
- <header ><h1> Welcome to <font style=color:red>ManagePlus</font></h1><a href="https://www.manageplus.in/manageWorkplace/jsp/login.jsp?companyCode=indus" target="_blank"><img src="https://i.postimg.cc/NGrRvHNb/indus.png">
+ <header >
+	 <h1> Welcome to <font style=color:red>ManagePlus</font></h1><a href="https://www.manageplus.in/manageWorkplace/jsp/login.jsp?companyCode=indus" target="_blank"><img src="https://i.postimg.cc/NGrRvHNb/indus.png">
  </a></header>
 
 <center> <h1> Welcome to <em><font style=color:red>Manageplus</font></em> WorkSpace </h1>
@@ -43,7 +42,8 @@
     </label>
   </div>
   <button type="submit" class="btn btn-default" ng-click="vm.submit(vm.user)">Submit</button>
-</form></center>
+</form>
+</center>
 <footer  ><h2><font style=color:red>Thank You</font> Please Visit Again ....</h2></footer>
 <h1 ><marquee><font style=color:red>{Alia-Bhatt}</font></marquee></h1>
 
