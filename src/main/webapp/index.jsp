@@ -45,7 +45,7 @@
 </form>
 </center>
 <footer  ><h2><font style=color:red>Thank You</font> Please Visit Again ....</h2></footer>
-<h1 ><marquee><font style=color:red>{Alia-Bhatt}</font></marquee></h1>
+<h1 ><marquee><font style=color:red>{naveed_bhai}</font></marquee></h1>
 
  </body>
 </html>
