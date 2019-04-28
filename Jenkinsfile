@@ -4,7 +4,7 @@ pipeline{
 		stages {
 			stage('Preperation'){
 				steps{ 
-				       sh 'docker pull nginx'
+				      
 				       sh 'docker pull tutum/hello-world'
 					}
 				}
