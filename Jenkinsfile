@@ -3,7 +3,7 @@ pipeline{
 	agent any
 		stages {
 			stage('Preperation'){
-				steps{ sh 'docker pull ubuntu:latest'
+				steps{ 
 				       sh 'docker pull nginx'
 				       sh 'docker pull tutum/hello-world'
 					}
